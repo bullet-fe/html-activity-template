@@ -1,0 +1,35 @@
+{
+  "name": "html-activity-template",
+  "version": "1.0.0",
+  "description": "There is only one template of html file, which supports less, es6=> es5 and layered packaging",
+  "scripts": {
+    "dev": "node ./bin/dev.js",
+    "build": "node ./bin/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bullet-fe/html-activity-template.git"
+  },
+  "keywords": [
+    "html-template",
+    "only-html",
+    "active-template"
+  ],
+  "author": "gzg1023",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bullet-fe/html-activity-template/issues"
+  },
+  "homepage": "https://github.com/bullet-fe/html-activity-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@parcel/babel-plugin-transform-runtime": "^2.0.0-nightly.1823",
+    "@parcel/babel-preset-env": "^2.0.0-alpha.3",
+    "autoprefixer": "9.8.6",
+    "express": "^4.17.1",
+    "less": "^4.1.1",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.3.5",
+    "postcss-modules": "^4.1.3"
+  }
+}
